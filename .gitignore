@@ -2,6 +2,8 @@ node_modules/
 .env
 .env.*
 !.env.example
+*.p8
+mobile/secrets/
 dist/
 build/
 .expo/
