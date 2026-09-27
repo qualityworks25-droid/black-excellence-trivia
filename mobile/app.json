@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Black Excellence Trivia",
+    "slug": "black-excellence-trivia",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#0B0B14"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "TODO.set-before-first-build"
+    }
+  }
+}
