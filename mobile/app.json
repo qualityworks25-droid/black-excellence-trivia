@@ -9,9 +9,19 @@
     "splash": {
       "backgroundColor": "#0B0B14"
     },
+    "owner": "TODO-your-expo-username",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "TODO.set-before-first-build"
+      "bundleIdentifier": "TODO.set-before-first-build",
+      "buildNumber": "1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "TODO-run-eas-build-configure-to-fill-this-in"
+      }
     }
   }
 }

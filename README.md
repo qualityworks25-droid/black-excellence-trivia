@@ -16,7 +16,9 @@ black-excellence-trivia/
 ├── docs/
 │   ├── ARCHITECTURE.md        full system architecture
 │   ├── DATABASE_SCHEMA.sql    Postgres schema (users, teams, matches, question bank, crowns)
-│   └── AI_SYSTEM_PROMPT.md    system prompt used by the question-generation workers
+│   ├── AI_SYSTEM_PROMPT.md    system prompt used by the question-generation workers
+│   ├── EAS_SETUP.md           building & submitting the iOS app to the App Store via EAS
+│   └── preview.html           static HTML preview of the lobby/match/crown screens
 ├── server/                    Node.js backend: Express + Socket.io + Postgres + vector dedup
 │   └── src/
 │       ├── game/              round/match state machine ("first to 5 of 9", best of 3)
@@ -47,6 +49,10 @@ cd mobile
 npm install
 npx expo start
 ```
+
+### Building the iOS app for TestFlight / the App Store
+See [`docs/EAS_SETUP.md`](docs/EAS_SETUP.md) — this has to run from your own Mac since it involves
+logging into your personal Expo and Apple accounts.
 
 ## Design notes
 
